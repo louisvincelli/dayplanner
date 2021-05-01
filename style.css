@@ -69,3 +69,22 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+.container {
+  display: flex;
+}
+
+.calendar-box{
+  flex-direction:column;
+  flex: 1;
+
+}
+
+.time-div {
+  flex: 1;
+
+}
+
+.input-div {
+  flex: 3;
+}

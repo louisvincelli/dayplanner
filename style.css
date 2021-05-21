@@ -72,12 +72,14 @@ textarea {
 
 .container {
   display: flex;
+  justify-content: center;
 }
 
 .calendar-box{
-  flex-direction:column;
+  display: flex;
+  flex-direction:row;
   flex: 1;
-
+  padding: 10px;
 }
 
 .time-div {
